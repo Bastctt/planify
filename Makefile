@@ -40,9 +40,8 @@ fclean:
 	rm -rf .env.local
 	rm -rf .env.development.local
 
-all:
+make:
 	npm install
-	npx expo start --tunnel
 
 tests_run:
 	npm test
