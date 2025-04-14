@@ -40,7 +40,7 @@ fclean:
 	rm -rf .env.local
 	rm -rf .env.development.local
 
-make:
+all:
 	npm install
 	npx expo start --tunnel
 
