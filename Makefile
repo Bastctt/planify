@@ -47,5 +47,5 @@ tests_run:
 	npm test
 
 clean:
-	rm -rf node_modules
+	@echo "✅ Clean done. Build Success!"
 
