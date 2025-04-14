@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "planify",
+    "slug": "planify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/png/planify.png",
+    "scheme": "planify",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/png/favicon-32x32.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
