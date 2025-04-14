@@ -44,7 +44,7 @@ all:
 	npm install
 	npx expo start --tunnel
 
-test_run:
+tests_run:
 	npm test
 
 clean:
