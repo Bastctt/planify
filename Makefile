@@ -31,6 +31,9 @@
 # build:
 # 	npx expo build
 
+install:
+	npm install
+
 fclean: 
 	rm -rf node_modules
 	rm -rf package-lock.json
@@ -39,9 +42,6 @@ fclean:
 	rm -rf .DS_Store
 	rm -rf .env.local
 	rm -rf .env.development.local
-
-install:
-	npm install
 
 tests_run:
 	npm test
